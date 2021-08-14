@@ -5,5 +5,6 @@
 # Process
 Step 1  
 Creating a first-sample project  
-Use WebSecurityConfigurerAdapter and AuthenticationManagerBuilder to do a simple config  
+Use WebSecurityConfigurerAdapter and AuthenticationManagerBuilder to do a simple config and simple authentication  
 Step 2  
+Use HttpSecurity to manage the authorization  
