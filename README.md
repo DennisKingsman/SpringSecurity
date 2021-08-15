@@ -4,6 +4,7 @@
 [you-tube-guide](https://www.youtube.com/playlist?list=PLqq-6Pq4lTTYTEooakHchTGglSvkZAjnE)  
 [authenticating-ldap](https://spring.io/guides/gs/authenticating-ldap/)  
 [default-user-schema](https://docs.spring.io/spring-security/site/docs/current/reference/html5/#user-schema)  
+[jwt.io](https://jwt.io/)  
 # Process
 Step 1  
 Creating a first-sample project  
