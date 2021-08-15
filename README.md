@@ -24,6 +24,21 @@ Step 6
 add jwt dependency  
 setup JwtUtil class  
 /authenticate API endpoint  
+go to postman and create a `post` request to `http://localhost:8080/authenticate` with body raw
+```
+{
+    "username": "user",
+    "password": "user"
+}
+```
+and receive smth like 
+```
+{
+    "jwt": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjI5MDk2OTYwLCJpYXQiOjE2MjkwNjA5NjB9.0VQGwaTJIv2_20hIVq_TnrR9EycTBHIJMY7-2izJNis"
+}
+```
+Step 7  
+Intecept all incoming requests and check their tokens  
 #Issues 
 can't execute the schema from doc  
 Spring Boot + Spring Security with JPA authentication and MySQL from scratch video skipped  
