@@ -12,6 +12,9 @@ Step 3
 Move to the second sample  
 Try to add a schema sql  
 Explore usersByUsernameQuery and authoritiesByUsernameQuery  
+Step 4  
+JPA authentication(skipped)  
+Step 5  
 #Issues 
 can't execute the schema from doc  
 Spring Boot + Spring Security with JPA authentication and MySQL from scratch video skipped  
