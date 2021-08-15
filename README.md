@@ -21,6 +21,9 @@ Step 5
 add ldap dependency  
 add config .ldif file and other configurations  
 Step 6  
+add jwt dependency  
+setup JwtUtil class  
+/authenticate API endpoint  
 #Issues 
 can't execute the schema from doc  
 Spring Boot + Spring Security with JPA authentication and MySQL from scratch video skipped  
