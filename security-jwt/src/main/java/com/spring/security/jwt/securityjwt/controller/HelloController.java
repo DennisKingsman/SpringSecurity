@@ -52,7 +52,7 @@ public class HelloController {
                             authenticationRequest.getPassword()
                     )
             );
-        }catch (BadCredentialsException e) {
+        } catch (BadCredentialsException e) {
             e.printStackTrace();
         }
 
