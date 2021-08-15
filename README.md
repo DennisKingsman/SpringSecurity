@@ -38,7 +38,10 @@ and receive smth like
 }
 ```
 Step 7  
-Intecept all incoming requests and check their tokens  
+Intecept all incoming requests and check their tokens by creating a filter  
+Get ur new JWT  
+Go to the postman and create a `get` request to `http://localhost:8080/hello`  
+and add to Headers `Authorization` key with value `Bearer <ur token>` and test it  
 #Issues 
 can't execute the schema from doc  
 Spring Boot + Spring Security with JPA authentication and MySQL from scratch video skipped  
